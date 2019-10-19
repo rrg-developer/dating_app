@@ -25,6 +25,7 @@ class AppController {
 
 
     async matches({session, request, response}) {
+        console.log("asdadad");
         const user_id = session.get("user_id");
         //users that i have liked
         const liked_users_ids = await Database
