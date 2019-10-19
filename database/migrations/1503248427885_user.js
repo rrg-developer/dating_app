@@ -9,7 +9,7 @@ class UserSchema extends Schema {
             table.increments()
             table.integer('cc_id', 80);
             table.string('full_name', 80);
-            table.string('phone', 80);
+            table.string('phone', 10);
             table.string('website', 80);
             table.string('avatar', 250);
             table.string('custom_data', 250);
