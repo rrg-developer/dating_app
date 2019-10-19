@@ -8,8 +8,8 @@ class LikesSchema extends Schema {
         this.create('likes', (table) => {
             table.increments();
             table.integer('user_1', 80).notNullable()
-            table.integer('user_2', 264).notNullable()
-            table.integer('like', 264).notNullable()
+            table.integer('user_2', 254).notNullable()
+            table.integer('like', 254).notNullable()
             table.timestamps();
         })
     }
